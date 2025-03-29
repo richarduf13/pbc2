@@ -1870,22 +1870,26 @@ $page = isset($_GET['page']) ? trim($_GET['page'], '/') : 'home';
     }
     ?>
 
-    <footer>
-        <div class="container" style="padding: 0px; height: 55px;">
-            <div class="pull-right" style="margin-top:-33px;overflow:visible;">
-                <a style="background:url('assets/images/facebook-icon.png') 0 0 no-repeat;width:64px;height:64px;display:inline-block;" href="https://www.facebook.com/propertybuyersconnect/" target="_blank" class="pull-right"></a>
-                <a style="background:url('assets/images/instagram-icon.png') 0 0 no-repeat;background-size:contain;width:64px;height:64px;display:inline-block;margin-right:8px;" href="https://www.instagram.com/propertybuyersconnect/" target="_blank" class="pull-right"></a>
-                <a style="background:url('assets/images/twitter-icon.png') 0 0 no-repeat;width:64px;height:64px;display:inline-block;margin-right:8px;" href="https://twitter.com/PropGuerilla" target="_blank" class="pull-right"></a>
-                <a style="background:url('assets/images/linkedin-icon.png') 0 0 no-repeat;width:64px;height:64px;display:inline-block;margin-right:8px;" href="https://www.linkedin.com/in/property-guerilla/" target="_blank" class="pull-right"></a>
+   <footer>
+    <div class="container" style="padding: 0px; height: 55px;">
+        <div class="pull-right" style="margin-top:-33px;overflow:visible;">
+            <a style="background:url('assets/images/facebook-icon.png') 0 0 no-repeat;width:64px;height:64px;display:inline-block;" href="https://www.facebook.com/propertybuyersconnect/" target="_blank" class="pull-right"></a>
+            <a style="background:url('assets/images/instagram-icon.png') 0 0 no-repeat;background-size:contain;width:64px;height:64px;display:inline-block;margin-right:8px;" href="https://www.instagram.com/propertybuyersconnect/" target="_blank" class="pull-right"></a>
+            <a style="background:url('assets/images/twitter-icon.png') 0 0 no-repeat;width:64px;height:64px;display:inline-block;margin-right:8px;" href="https://twitter.com/PropGuerilla" target="_blank" class="pull-right"></a>
+            <a style="background:url('assets/images/linkedin-icon.png') 0 0 no-repeat;width:64px;height:64px;display:inline-block;margin-right:8px;" href="https://www.linkedin.com/in/property-guerilla/" target="_blank" class="pull-right"></a>
+        </div>
+    </div>
+    <div class="copyright" style="padding: 0px; margin: 0 auto; height: 55px;">
+        <div class="container">
+            <div class="pull-left">© All Rights Reserved, Property Buyers Connect</div>
+            <div class="pull-right">
+                <a href="/terms-of-service">Terms of Service</a> | 
+                Contact Us: <a href="mailto:support@propertybuyersconnect.com">support@propertybuyersconnect.com</a>
             </div>
         </div>
-        <div class="copyright" style="padding: 0px; margin: 0 auto; height: 55px;">
-            <div class="container">
-                <div class="pull-left">© All Rights Reserved, Property Buyers Connect</div>
-                <div class="pull-right">Contact Us: <a href="mailto:support@propertybuyersconnect.com">support@propertybuyersconnect.com</a></div>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
